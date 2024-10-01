@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Parent{
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    background-color: darkblue;
+}
+
+.Child{
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 40px;
+    font-weight: 350;
+    font-size: 18px;
+    height: 1px;
+}
+
+.image{
+    background-size: cover;
+    background-position: center;
+    height: 170vh;
+    position: fixed;
+    opacity: 70%;
+
+}
+
+.Text{
+  position: absolute;
+  right: 30%;
+  left: 50px;  
+}
+.text{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   white-space: nowrap;
+   font-size: 25px;
+   height: 1px;
+   font-weight: 700;
+   text-shadow: 
+        0 0 5px rgba(217, 255, 0, 0.8),
+        0 0 10px rgba(0, 0, 0, 0.6), 
+        0 0 15px rgba(0, 0, 0, 0.4), 
+        0 0 20px rgba(0, 204, 255, 0.5); 
+}
+
+.IMAGE{
+    height: 135px;
+    padding-right: 770px;
+    position: fixed;
+    margin-top: -28px;
+}
+
+.FooterParent{
+    
+       position: absolute;
+       top: 510px;
+       left: 450px;
+       color: white;
+       background-color: black;
+       
+    }.FooterChild{
+
+
+           }
+
+.FooterBar{
+    position: absolute;
+    top: 530px;
+    left: 400px;
+    color: white;
+}.FootBar{
+
+
+}
+
+.img{
+    position: fixed;
+    margin-top: 457px;
+    width: 100%;
+    left: -0px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img2{
+    position: fixed;
+    height: 40px;
+    margin-top: 457px;
+}
+.img3{
+    position: fixed;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 5px;
+}
+
+.img4{
+    position: fixed;
+    height: 40px;
+    margin-top: 457px;
+    margin-left: 1125px;
+
+}
+
+.img5{
+    position: fixed;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 1120px;
+}
+
+.Facebook{
+    position: fixed;
+    height: 40px;
+    margin-top: 470px;
+    margin-left: 75px;
+
+}.Youtube{
+    position: fixed;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: 75px;
+}
+
+.Twitter{
+    position: fixed;
+    height: 40px;
+    margin-top: 470px;
+    margin-left: 960px;
+}
+.Telegram{
+    position: fixed;
+    height: 40px;
+    margin-top: 504px;
+    margin-left: 960px;
+}
+
+.Programming{
+    position: fixed;
+    border-radius: 50px;
+    height: 300px;
+    margin-top: 120px;
+    border: 2px solid black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+    margin-left: 40px;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.programmingtext{
+    position: fixed;
+    margin-left: 600px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    margin-top: 110px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.About{
+    position: fixed;
+    margin-left: 230px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 800px;
+    overflow-wrap: break-word;
+    margin-top: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+    text-shadow: 
+        0 0 5px rgba(217, 255, 0, 0.8),
+        0 0 10px rgba(0, 0, 0, 0.6), 
+        0 0 15px rgba(0, 0, 0, 0.4), 
+        0 0 20px rgba(0, 204, 255, 0.5); 
+}
+
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.image2{
+    height: 200px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 35%;
+    border-radius: 50px;
+    border: 2px solid red;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.image3{
+
+    background-size: cover;
+    background-position: center;
+    height: 170vh;
+    position: fixed;
+
+
+}
+
+.image4{
+    height: 300px;
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 3%;
+    border-radius: 10px;
+    border: 2px solid red;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.text5{
+    position: fixed;
+    color: black;
+    margin-left: 650px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 1.0;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    margin-top: 140px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3s forwards;
+    text-shadow: 
+    -1px -1px 0 yellow,
+     1px -1px 0 yellow,
+    -1px  1px 0 yellow,
+     1px  1px 0 yellow;
+
+
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
